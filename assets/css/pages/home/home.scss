@@ -1,0 +1,136 @@
+@import '../../partials/variables';
+@import '../../partials/mixin';
+
+a {
+    text-decoration: none;
+}
+
+
+#header {
+    background-color: $background-color;
+
+    .header-all {
+        display: flex;
+        align-items: center;
+        margin: 9px;
+        a{
+            margin-left: 18px;
+           
+        }
+    }
+
+    .logo {
+        h2 {
+            color: #fff;
+            
+        }
+    }
+
+    
+    .navbar {
+        a {
+            color: #fff;
+        }
+
+    }
+
+    .menu {
+        text-align: end;
+
+        i {
+            color: #fff;
+        }
+    }
+}
+
+#middle {
+    background-color: $background-color;
+    padding: 3rem;
+
+    .text {
+        h1 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+
+    .left {
+        align-items: center;
+    }
+
+    .button {
+        .first {
+                padding: 8px 25px;
+                background-color: #fff;
+                border-radius: 100px;
+                color:blue;
+        }
+
+        .second {
+                color: #fff;
+                margin-left: 15px;
+            }
+
+            i {
+                background-color: #fff;
+                color: blue;
+                padding: 12px;
+                margin-right: 10px;
+                border-radius: 15px;
+            }
+        }
+    }
+
+    .right {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+
+
+    #down{
+        margin: 80px;
+        .stories{
+            align-items: center;
+        }
+        .left{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .right{
+            h4{
+                font-size: 18px;
+            }
+            h1{
+                margin-bottom: 25px;
+            }
+            .button{
+                background-color: rgb(248, 220, 220);
+                padding: 20px;
+                margin-bottom: 25px;
+               .first{
+                @include btn($background-color,#fff)
+               }
+               .second{
+                @include btn(#fff,black)
+               }
+               .third{
+                @include btn(#fff,black)
+               }
+                
+            }
+        }
+    
+    }
+
+
+  
+
+
+
