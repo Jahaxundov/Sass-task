@@ -48,13 +48,13 @@ a {
     padding: 3rem;
 
     .text {
+        p {
+            color: #fff;
+        }
         h1 {
             color: #fff;
         }
 
-        p {
-            color: #fff;
-        }
     }
 
     .left {
@@ -94,9 +94,6 @@ a {
 
     #down{
         margin: 80px;
-        .stories{
-            align-items: center;
-        }
         .left{
             width: 100%;
             img{
